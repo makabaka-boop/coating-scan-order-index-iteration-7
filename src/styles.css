@@ -227,6 +227,23 @@ table.results {
   color: var(--ok);
 }
 
+.col-mad {
+  width: 220px;
+  color: var(--warn);
+}
+
+.mad-toggle {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.mad-toggle input {
+  margin-top: 3px;
+}
+
 .mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
